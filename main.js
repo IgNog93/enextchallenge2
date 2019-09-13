@@ -94,6 +94,8 @@ window.onload = function() {
         }
     });
 
+    var date = new Date();
+
     $('#toserver button').click( function(e) {
         e.preventDefault(); 
 
@@ -102,7 +104,7 @@ window.onload = function() {
         localStorage["fontcolor"] = $("#colortoserver").val();
         localStorage["font"] = $("#fonttoserver").val();
         localStorage["image"] = $("#imagetoserver").val();
-
+        localStorage["date"] = date;
         console.log(localStorage);
     });
 }
