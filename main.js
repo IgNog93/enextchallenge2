@@ -21,8 +21,9 @@ window.onload = function() {
         $.ajax({
             url: 'https://dog.ceo/api/breed/'+selectedbreed+'/images/random',
             success: function(image) {
+                $(".dog-image").empty();
                 $("#imagetoserver").val(image.message);
-                $("body").append("<img src='"+image.message+"'>");
+                $(".dog-image").append("<img src='"+image.message+"'>");
             }
         })
     });
@@ -93,8 +94,8 @@ window.onload = function() {
         }
     });
 
-    $('#toserver button').click( function() {
-        preventDefault();
+    $('#toserver button').click( function(e) {
+        e.preventDefault(); 
 
         localStorage["name"] = $("#nametoserver").val();
         localStorage["breed"] = $("#breedtoserver").val();
