@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Chilanka|Roboto&display=swap" rel="stylesheet">
+    <title>Challenge 2</title>
+</head>
+<body>
+
+<select class="main-selector">
+    <option class="breed-option" value="">Escolha uma raça</option>
+</select>
+
+<select class="color-selector">
+    <option class="color-option" value="black">Escolha uma cor</option>
+    <option class="color-option" value="blue">Azul</option>
+    <option class="color-option" value="red">Vermelho</option>
+    <option class="color-option" value="green">Verde</option>
+    <option class="color-option" value="yellow">Amarelo</option>
+    <option class="color-option" value="purple">Roxo</option>
+</select>
+
+<select class="font-selector">
+    <option class="font-option" value="black">Escolha uma fonte</option>
+    <option class="font-option" value="tnr">Times New Roman</option>
+    <option class="font-option" value="arial">Arial</option>
+    <option class="font-option" value="cs">Comic Sans</option>
+    <option class="font-option" value="rbt">Roboto</option>
+    <option class="font-option" value="ss">Sans Serif</option>
+</select>
+
+
+<form>
+    <input type="text" placeholder="Nome do cachorro" id="dogname"  />
+</form>
+
+<p id="dogname-output"></p>
+
+<form id="toserver" style="display: none">
+    <input type="text" id="breedtoserver"  /> 
+    <input type="text" id="colortoserver"  />
+    <input type="text" id="fonttoserver"  />
+    <input type="text" id="imagetoserver"  />
+    <input type="text" id="nametoserver"  />
+    <button type="submit">Salvar no servidor local</button>
+</form>
+
+<script src="main.js"></script>
+
+</body>
+</html>
