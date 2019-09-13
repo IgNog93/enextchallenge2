@@ -1,1 +1,1 @@
-![Page Screenshot](https://github.com/IgNog93/enext_challenge/blob/master/image/screenshot.jpg "This is a screenshot of the challenge")
+![Page Screenshot](https://github.com/IgNog93/enext_challenge/tree/master/image/screenshot.jpg "This is a screenshot of the challenge")
