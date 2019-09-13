@@ -1,3 +1,6 @@
-# enextchallenge2
+# enext_challenge
+Challenge 2- Front End Jr
 
-![Page Screenshot](https://github.com/IgNog93/enext_challenge2/blob/master/screenshot.jpg "This is a screenshot of the challenge")
+## Website
+
+![Page Screenshot](https://github.com/IgNog93/enext_challenge/blob/master/image/screenshot.jpg "This is a screenshot of the challenge")
