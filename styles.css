@@ -39,3 +39,15 @@ input {
 .hide-input {
     display: none;
 }
+
+.image-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#dogname-output{
+    position: absolute;
+    top: 415px;
+}
