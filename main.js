@@ -16,6 +16,7 @@ window.onload = function() {
 
     $('.main-selector').change(function() {
         var selectedbreed = $(".main-selector option:selected").text();
+        $(".ghost").css('display', 'none');
         $("#breedtoserver").val(selectedbreed);
         $.ajax({
             url: 'https://dog.ceo/api/breed/'+selectedbreed+'/images/random',
@@ -33,6 +34,7 @@ window.onload = function() {
     });
 
     $('.color-selector').change(function() {
+        $(".ghost").css('display', 'none');
         var selectedcolor = $(".color-selector option:selected").val();
 
         if (selectedcolor === 'black'){
@@ -62,6 +64,7 @@ window.onload = function() {
     });
 
     $('.font-selector').change(function() {
+        $(".ghost").text('');
         var selectedfont = $(".font-selector option:selected").val();
 
         if (selectedfont === 'initial'){
