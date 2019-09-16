@@ -23,15 +23,14 @@
                 name: ''
             }
 
-
             render() {
                 return (
                     <div>
                         <form>
-                            <input type="text" placeholder="Nome do doguinho" id="dogname"  />
+                            <input type="text" placeholder="Nome do dog" id="dogname"  />
                             <p>This input was made with ReactJS</p>
-                        </form>
-                        <p id="dogname-output">{ this.state.name }</p>
+                            <p id="dogname-output">{ this.state.name }</p>          
+                            </form>
                     </div>
                 )
             }
@@ -74,6 +73,7 @@
         <input type="text" class="hide-input" id="nametoserver"  />
         <button type="submit">Salvar no armazenamento local</button>
     </form>
+
     <script src="main.js"></script>
     </content>
 </body>
