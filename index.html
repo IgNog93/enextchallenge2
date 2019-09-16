@@ -17,7 +17,13 @@
     <div id="app"></div>
 
     <script type="text/babel">
+    
         class App extends React.Component {
+            state = {
+                name: ''
+            }
+
+
             render() {
                 return (
                     <div>
@@ -25,6 +31,7 @@
                             <input type="text" placeholder="Nome do doguinho" id="dogname"  />
                             <p>This input was made with ReactJS</p>
                         </form>
+                        <p id="dogname-output">{ this.state.name }</p>
                     </div>
                 )
             }
@@ -57,7 +64,6 @@
     <section class="image-text">
         <figure class="dog-image">
         </figure>
-        <p id="dogname-output"></p>
     </section>
     
     <form id="toserver">
