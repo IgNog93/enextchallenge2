@@ -105,7 +105,7 @@ window.onload = function() {
         localStorage["font"] = $("#fonttoserver").val();
         localStorage["image"] = $("#imagetoserver").val();
         localStorage["date"] = date;
-        alert('Seu doguinho foi adicionado ao local storage com sucesso!!!')
+        alert('Seu doguinho foi adicionado ao local storage com sucesso!')
         console.log(localStorage);
     });
 }

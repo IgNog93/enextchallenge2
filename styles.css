@@ -49,5 +49,6 @@ input {
 
 #dogname-output{
     position: absolute;
-    top: 415px;
+    top: 100px;
+    font-size: 48px;
 }
