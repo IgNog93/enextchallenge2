@@ -26,6 +26,14 @@ form {
     justify-content: center;
     height: 100px;
     width: 512px;
+    flex-direction: column;
+}
+
+form p {
+    position: relative;
+    bottom: 8px;
+    font-size: 12px;
+    color: gray;
 }
 
 input {
